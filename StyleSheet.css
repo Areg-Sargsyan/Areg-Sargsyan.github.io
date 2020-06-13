@@ -1,0 +1,91 @@
+﻿
+body {
+    background-color: #000000;
+}
+
+.Picture {
+    display:flex;
+    justify-content:center;
+}
+
+.Global {
+    text-align:left;
+    color: #FFE4B5;
+}
+
+.paragraph {
+    font-size: x-large;
+    color: #FFE4B5;
+}
+
+
+.effect {
+    color: white;
+    font-weight: bold;
+}
+
+
+#lists {
+    display:flex;
+    justify-content:space-around;
+}
+
+.unordered li {
+    font-size: larger;
+    color: white;
+}
+
+.Table {
+    display:flex;
+    justify-content:center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    color: #FFDAB9;
+}
+
+td, th {
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #FFEFD5;
+    color:black;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #FFE4B5; 
+    color:black;
+}
+
+.buttonstyle{
+    display:flex;
+    justify-content:center;
+}
+
+.buttonmain {
+    border-radius:20px;
+    padding: 30px 60px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.buttonback {
+    background-color: #DC143C;
+    color: white;
+    border: 2px solid #8B0000;
+}
+
+    .buttonback:hover {
+        background-color: #FFC0CB;
+        color: black;
+        transition-duration: 0.5s;
+    }
